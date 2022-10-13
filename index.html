@@ -1,0 +1,56 @@
+<!DOCTYPE <html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> Polygon calculator</title>
+    <link href="style.css" rel="stylesheet">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    
+    <h2>Polygon calculator</h2>
+    <div class="calculator-box">   
+    
+    <label for="sides">Enter your number of sides:</label>
+    <input type="text" id="sides"/>
+    <label for="side length">a = </label>
+    <input type="text" id="sideL" name="sidelength" placeholder ="side length">
+
+    <label for="formula">Choose a calculation:</label>
+    <select name="formula" id="formula">
+        <option  value="A"> area A</option>
+        <option  value="P"> perimeter P</option>
+        <option  value="r"> Inradius r</option>
+        <option  value="cr">circumradius R </option>
+    </select>
+    <label for="pi">Let pi π </label>
+    <input data-pi type="text" id="pi" name="let pi" value ="3.1415926535898">
+    <button onclick="calc(); funoutput()" id="calcbtn">Calculate</button>
+    
+    <p class="output" id="output1"></p>
+    <p class="output" id="output2"></p>
+    <label for ="answer">Answer</label>
+    <input type="text" id="result"/>
+    
+    
+    
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+   
+
+
+
